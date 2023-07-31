@@ -14,7 +14,7 @@ y_min = y.ravel()[z.argmin()]
 c1 = c2 = 0.1
 w = 0.8
 
-n_particles = 10
+n_particles = 25
 np.random.seed(42)
 X = np.random.rand(2, n_particles) * 5
 V = np.random.randn(2, n_particles) * 0.1
