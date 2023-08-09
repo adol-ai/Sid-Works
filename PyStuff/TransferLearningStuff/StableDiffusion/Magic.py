@@ -6,7 +6,7 @@ from diffusers import StableDiffusionPipeline
 
 
 #prompt = str(input("Prompt Here: "))
-prompt = 'photorealistic Yezdi Adventure Bike with only side stand in a Tokyo/cyberpunk Night city in 8k'
+prompt = 'statue of greek man draped in persian blue silk with gold aztec symbols on it'
 #pipe = StableDiffusionPipeline.from_pretrained("prompthero/openjourney-v4")
 pipe = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0", torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
 pipe = pipe.to("cuda")
