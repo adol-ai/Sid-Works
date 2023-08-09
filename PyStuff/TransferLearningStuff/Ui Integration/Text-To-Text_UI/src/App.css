@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+
+.head{
+  color: white;
+  margin-left: 90px;
+}
+
+.App {
+  background-color: #171010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  height: 100vh;
+  width: auto;
+
+}
+
+.textarea-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.textarea {
+  height: 400px;
+  margin-bottom: 10px;
+  resize: none;
+  background-color: #2B2B2B;
+  color: white;
+   border-radius: 10px;
+  border: 1px solid #423F3E;
+  cursor: default;
+
+}
+
+
+
+.button-container button {
+  margin: 30px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  margin-left: 90px;
+  border-color: 2px solid aliceblue;
+
+}
+
+.description-box {
+
+  height: 680px;
+  margin-left: 120px;
+  width: 540px;
+  padding: 10px;
+  border: 1px solid #423F3E;
+  background-color: #2B2B2B;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+  box-shadow: #F5F5F5;
+}
+
+
+nav{
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+  background-color: #171010;
+  color: #F5F5F5;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+
