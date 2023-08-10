@@ -27,7 +27,7 @@ const projects = [
     stack: ['TensorFlow', 'IoT', 'ReactJS'],
   },
   {
-    name: 'Project 2',
+    name: 'Medi-Crapper',
     description:
       `Aggregate web-app that 
       contains all the details of doctors in a specific locality which enables the user to fix 
@@ -38,7 +38,7 @@ const projects = [
     stack: ['TensorFlow', 'IoT', 'React Native'],
   },
   {
-    name: 'Project 3',
+    name: 'Bark Tech',
     description:
       `Employing CCTV in public spaces to spot stray dog behaviour 
       patterns, skin conditions they are prone to, and to count the number of stray dogs that 
