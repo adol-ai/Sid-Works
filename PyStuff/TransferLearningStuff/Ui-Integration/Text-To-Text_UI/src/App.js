@@ -1,68 +1,76 @@
 import React, { useState, useEffect } from 'react';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
+import { RingLoader } from 'react-spinners';
+import { css } from '@emotion/react';
 import axios from 'axios';
 import './App.css';
 
+const override = css`
+  display: block;
+  margin: 0 auto;
+  border-color: red;
+`;
+
+const Typewriter = ({ text }) => {
+  const [index, setIndex] = useState(0);
+  useEffect(() => {
+    const typingInterval = setInterval(() => {
+      setIndex((prevIndex) => {
+        if (prevIndex === text.length - 1) {
+          clearInterval(typingInterval);
+        }
+        return prevIndex + 1;
+      });
+    }, 10); 
+    return () => clearInterval(typingInterval);
+  }, [text]);
+
+  return <div className="typewriter-box">
+    {text.slice(0, index + 1)}
+  </div>;
+};
+
+
 const App = () => {
   const [inputText, setInputText] = useState('');
-  const [showDescription, setShowDescription] = useState(false);
-  const [mainDescription, setmainDescription] = useState('');
+  const [mainDescription, setMainDescription] = useState('');
   const [error, setError] = useState('');
-  
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [minWordCount, setMinWordCount] = useState(75);
+
+
+  useEffect(() => {
+    setMainDescription('');
+  }, [inputText]);
+
   const handleInputChange = (e) => {
     setInputText(e.target.value);
     setError('');
   };
 
+
   const handleShowDescription = async () => {
     try {
+      setIsProcessing(true);
+      setError('');
       const response = await axios.post('http://localhost:5000/process', {
         inputText: inputText,
-        min_word_count: 50,
+        min_word_count: minWordCount,
       });
-
-      setmainDescription(response.data.summary);
-      setShowDescription(true);
+      setMainDescription(response.data.summary);
     } catch (error) {
-      console.log("Here We Go !")
+      console.log("Here We Go !");
       console.error('\n\nerror:', error);
       setError('An error occurred while processing.');
+    } finally {
+      setIsProcessing(false);
     }
   };
 
   const handleHideDescription = () => {
-    setShowDescription(false);
     setInputText('');
     setError('');
-  };
-
-  const Typewriter = ({ text }) => {
-    const [isLoading, setLoading] = useState(true);
-    const [index, setIndex] = useState(0);
-
-    useEffect(() => {
-      const typingInterval = setInterval(() => {
-        if (!isLoading) {
-          setIndex((prevIndex) => {
-            if (prevIndex === text.length - 1) {
-              clearInterval(typingInterval);
-            }
-            return prevIndex + 1;
-          });
-        }
-      }, 15); 
-
-      setTimeout(() => {
-        setLoading(false);
-      }, 500); 
-
-      return () => clearInterval(typingInterval);
-    }, [isLoading, text]);
-
-    return <div className="typewriter-box">
-      {isLoading ? 'Generating...' : text.slice(0, index + 1)}
-    </div>;
   };
 
   return (
@@ -78,19 +86,26 @@ const App = () => {
             value={inputText}
             onChange={handleInputChange}
           />
+          {/* Minimum Word Count Input */}
+          <div className="min-word-count-container">
+          <label style={{ color: 'white' }}>Minimum Word Count : -</label>
+          <input
+            type="number"
+            value={minWordCount}
+            onChange={(e) => {
+              const value = parseInt(e.target.value);
+              setMinWordCount(Math.max(10, value));
+            }}
+          />
+          </div>
           {/* Buttons */}
           <div className="button-container">
-            <Button variant="primary" size="lg" onClick={handleShowDescription} disabled={!inputText || showDescription}>
+            <Button variant="primary" size="lg" onClick={handleShowDescription} disabled={!inputText || isProcessing}>
               Submit
             </Button>
-            <Button variant="secondary" size="lg" onClick={handleHideDescription} disabled={!showDescription}>
+            <Button variant="secondary" size="lg" onClick={handleHideDescription}>
               Clear Input
             </Button>
-          </div>
-          {/* Help Buttons */}
-          <div style={{ display: 'flex', flexDirection: 'row', marginTop: '30px' }}>
-            <Button variant='light' size="lg" style={{ marginLeft: '50px', backgroundColor: '' }}>Help?</Button>
-            <Button variant='light' size="lg" style={{ marginLeft: '120px' }}>Click to Know More!</Button>
           </div>
         </div>
         {/* Description */}
@@ -100,11 +115,17 @@ const App = () => {
               {error}
             </Alert>
           )}
-          {mainDescription && (
-            <div className="description-box">
+          {/* Conditionally render loading spinner */}
+          <div className="description-box">
+            {isProcessing && (
+              <div className="loading-box">
+                <RingLoader css={override} size={100} color={'#123abc'} loading={true} />
+              </div>
+            )}
+            {mainDescription && !isProcessing && (
               <Typewriter text={mainDescription} />
-            </div>
-          )}
+            )}
+          </div>
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ from diffusers import StableDiffusionPipeline
 
 
 #prompt = str(input("Prompt Here: "))
-prompt = 'statue of greek man draped in persian blue silk with gold aztec symbols on it'
+prompt = 'hyper Photo realistic of a squirrel and turtle  saluting at the Indian flag together in a warfare area'
 #pipe = StableDiffusionPipeline.from_pretrained("prompthero/openjourney-v4")
 pipe = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0", torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
 pipe = pipe.to("cuda")

@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from transformers import pipeline
 from colorama import Fore, Style
 from flask_cors import CORS
+import torch
 
 app = Flask(__name__)
 CORS(app)
@@ -14,7 +15,8 @@ def process_text():
     min_word_count = int(data.get('min_word_count', 0)) 
     max_length = min(len(input_text.split(' ')) + 50, 512)
 
-    summarizer = pipeline(task="summarization", model="facebook/bart-large-cnn")
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    summarizer = pipeline(task="summarization", model="facebook/bart-large-cnn", device=device)
     summary = summarizer(input_text, max_length=max_length, min_length=min_word_count)
     generated_summary = summary[0]['summary_text']
     print(Fore.WHITE + Style.BRIGHT + "\tThe Content is Out !" + Fore.RESET)
