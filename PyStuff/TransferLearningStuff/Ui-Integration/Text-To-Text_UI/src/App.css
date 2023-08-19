@@ -18,14 +18,14 @@
   font-family: 'Roboto Slab', serif;
   height: 100vh;
   width: auto;
-  padding: 10px; /* Equal padding on all sides */
+  padding: 5px; 
 }
 
 .textarea-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center; /* Center horizontally */
+  justify-content: center; 
 }
 
 .textarea {
@@ -77,11 +77,11 @@
   transition: transform 0.2s ease-in-out;
   position: relative;
   z-index: 1;
-  margin: 0 auto; /* Center horizontally */
+  margin: 0 auto; 
 }
 
 .navbar:hover {
-  transform: translateY(-10px); /* Move up slightly on hover */
+  transform: translateY(-10px); 
 }
 
 .navbar::before {
@@ -126,31 +126,30 @@
   animation: spin 1s linear infinite;
 }
 
-/* Styles for Mobile View */
 @media (max-width: 1300px) {
   .App {
     align-items: center;
-    justify-content: center; /* Center both vertically and horizontally */
+    justify-content: center; 
   }
 
   .textarea-container {
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Center horizontally */
+    justify-content: center; 
   }
 
   .textarea {
     height: 350px;
     width: 85%;
-    margin: 10px 40px; /* Equal left and right margins */
+    margin: 10px 40px; 
   }
 
   .description-box {
-    height: 300px; /* Default height for mobile view */
-    margin: 10px auto; /* Equal left and right margins */
+    height: 300px; 
+    margin: 10px auto; 
   }
 
   .button-container button {
-    margin: 15px 5px auto; /* Equal left and right margins */
+    margin: 15px 5px auto; 
   }
 }

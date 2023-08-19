@@ -33,12 +33,11 @@ const Typewriter = ({ text }) => {
 
 
 const App = () => {
-  const [inputText, setInputText] = useState('');
   const [mainDescription, setMainDescription] = useState('');
-  const [error, setError] = useState('');
   const [isProcessing, setIsProcessing] = useState(false);
   const [minWordCount, setMinWordCount] = useState(75);
-
+  const [error, setError] = useState('');
+  const [inputText, setInputText] = useState('');
 
   useEffect(() => {
     setMainDescription('');
@@ -48,7 +47,6 @@ const App = () => {
     setInputText(e.target.value);
     setError('');
   };
-
 
   const handleShowDescription = async () => {
     try {
