@@ -1,9 +1,8 @@
-import time
-import tqdm
-import torch
-from diffusers import DiffusionPipeline
 from diffusers import StableDiffusionPipeline
-
+from diffusers import DiffusionPipeline
+import torch
+import tqdm
+import time
 
 #prompt = str(input("Prompt Here: "))
 prompt = 'hyper Photo realistic of a squirrel and turtle  saluting at the Indian flag together in a warfare area'
