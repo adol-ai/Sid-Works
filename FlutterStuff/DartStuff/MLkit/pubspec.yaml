@@ -1,0 +1,6 @@
+name: MLkitStuff
+environment:
+  sdk: '^3.2.0-131.0.dev'
+
+dependencies:
+  google_ml_kit: ^0.16.2
