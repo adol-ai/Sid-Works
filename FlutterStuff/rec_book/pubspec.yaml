@@ -1,9 +1,9 @@
 name: rec_book
-description: "A new Flutter project"
+description: "RecBook Vision"
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.14.0-0.2.pre <4.0.0'
+  sdk: '>=3.2.0-131.0.dev <4.0.0'
 
 dependencies:
   flutter:
@@ -14,8 +14,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  image_picker: ^0.8.4 
-  tflite: ^2.0.0 
+  image_picker: ^1.0.4
+  tflite_flutter: ^0.10.1
 
 flutter:
   uses-material-design: true

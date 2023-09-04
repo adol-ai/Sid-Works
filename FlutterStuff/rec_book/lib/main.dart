@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return MaterialApp(
-      title: 'RecBook',
+      title: 'RecBook Vision',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.black,
         brightness: Brightness.dark,

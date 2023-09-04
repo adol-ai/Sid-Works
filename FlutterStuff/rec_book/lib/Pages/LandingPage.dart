@@ -5,40 +5,76 @@ class LandingPage extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("RecBook"),
+        title: Text("RecBook Vision",
+        style: TextStyle(
+          color: Colors.white,
+          fontSize: 24,
+          ),
+        ),
         centerTitle: true,
+        flexibleSpace: Column(
+          mainAxisAlignment: MainAxisAlignment.end,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Container(
+              width: 50,
+              child: LinearProgressIndicator(
+                  minHeight: 3,
+                  valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+              ),
+            ),
+          ]
+        ),
       ),
       body: Center(
-        child: column(
-          mainAxisAlignment: MainAxisAlignment.Center,
-          childeren: [
-            Text('RecBook',
-            style: TextStyle(
-              color: Colors.black,
-              fontSize: 32,
-              fontWeight: FontWeight.bold,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              height: 50,
+              width: 200,
+              child: ElevatedButton(
+                onPressed: () {
+                  //Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage()));
+                },
+                child: Text(
+                  'SignUp Face',
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.limeAccent[400],
+                  onPrimary: Colors.black,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(7),
+                  ),
+                ),
               ),
             ),
-            SizedBox(height: 20,),
-            ElevatedButton(
-              onPressed: () {
-                //Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage()));
-              },
-              child: Text('SignUp Face'),
-              style: ElevatedButton.styleFrom(
-                primary: Colors.blue,
-                onPrimary: Colors.white,
-              ),
-            ),
-            SizedBox(height: 20,),
-            ElevatedButton(
-              onPressed: () {
-                //Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage()));
-              },
-              child: Text('RollUp Face'),
-              style: ElevatedButton.styleFrom(
-                primary: Colors.blue,
-                onPrimary: Colors.white,
+            SizedBox(height: 20),
+            Container(
+              height: 50,
+              width: 200,
+              child: ElevatedButton(
+                onPressed: () {
+                  //Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage()));
+                },
+                child: Text(
+                  'RollUp Face',
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.limeAccent[400],
+                  onPrimary: Colors.black,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(7),
+                  ),
+                ),
               ),
             ),
           ]
