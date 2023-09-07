@@ -5,7 +5,7 @@ import tqdm
 import time
 
 #prompt = str(input("Prompt Here: "))
-prompt = 'hyper Photo realistic turtles with guns and squirrel with guns in a warfare'
+prompt = 'Generate something, You wanna show the World!'
 #pipe = StableDiffusionPipeline.from_pretrained("prompthero/openjourney-v4")
 pipe = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0", torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
 pipe = pipe.to("cuda")
