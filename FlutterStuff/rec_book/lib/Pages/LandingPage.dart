@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rec_book/Pages/FaceSignUpPage.dart';
 
 class LandingPage extends StatelessWidget{
   @override
@@ -35,7 +36,7 @@ class LandingPage extends StatelessWidget{
               width: 200,
               child: ElevatedButton(
                 onPressed: () {
-                  //Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => FaceSignUpPage()));
                 },
                 child: Text(
                   'SignUp Face',
