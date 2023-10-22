@@ -1,17 +1,17 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:google_ml_kit/google_ml_kit.dart';
+import 'package:google_mlkit_face_detection/google_mlkit_face_detection.dart';
 
-import 'workinFlows/detectorView.dart';
-import 'workinFlows/boxPainter.dart';
+import 'detectorView.dart';
+import 'boxPainter.dart';
 
-class FaceSignUpPage extends StatefulWidget {
+class FaceDetectorView extends StatefulWidget {
   @override
-  _FaceSignUpPageState createState() => _FaceSignUpPageState();
+  State<FaceDetectorView> createState() => _FaceDetectorViewState();
 }
 
-class _FaceSignUpPageState extends State<FaceSignUpPage> {
-   final FaceDetector _faceDetector = FaceDetector(
+class _FaceDetectorViewState extends State<FaceDetectorView> {
+  final FaceDetector _faceDetector = FaceDetector(
     options: FaceDetectorOptions(
       enableContours: true,
       enableLandmarks: true,

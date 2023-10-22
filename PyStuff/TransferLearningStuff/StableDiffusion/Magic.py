@@ -5,7 +5,7 @@ import tqdm
 import time
 
 #prompt = str(input("Prompt Here: "))
-prompt = 'Generate something, You wanna show the World!'
+prompt = 'create a Hyper Photorealistic colour photo advert for a magazine about a quiet luxury fashion brand  using single male model wearing a knitted polo tshirt  and and trousers with a black and white theme background'
 #pipe = StableDiffusionPipeline.from_pretrained("prompthero/openjourney-v4")
 pipe = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0", torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
 pipe = pipe.to("cuda")

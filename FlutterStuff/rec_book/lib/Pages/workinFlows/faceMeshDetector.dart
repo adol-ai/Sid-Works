@@ -1,22 +1,20 @@
+import 'dart:io';
+
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:google_ml_kit/google_ml_kit.dart';
+import 'package:google_mlkit_face_mesh_detection/google_mlkit_face_mesh_detection.dart';
 
-import 'workinFlows/detectorView.dart';
-import 'workinFlows/boxPainter.dart';
+import 'detectorView.dart';
+import 'boxPainter.dart';
 
-class FaceSignUpPage extends StatefulWidget {
+class FaceMeshDetectorView extends StatefulWidget {
   @override
-  _FaceSignUpPageState createState() => _FaceSignUpPageState();
+  State<FaceMeshDetectorView> createState() => _FaceMeshDetectorViewState();
 }
 
-class _FaceSignUpPageState extends State<FaceSignUpPage> {
-   final FaceDetector _faceDetector = FaceDetector(
-    options: FaceDetectorOptions(
-      enableContours: true,
-      enableLandmarks: true,
-    ),
-  );
+class _FaceMeshDetectorViewState extends State<FaceMeshDetectorView> {
+  final FaceMeshDetector _meshDetector =
+      FaceMeshDetector(option: FaceMeshDetectorOptions.faceMesh);
   bool _canProcess = true;
   bool _isBusy = false;
   CustomPaint? _customPaint;
@@ -26,14 +24,24 @@ class _FaceSignUpPageState extends State<FaceSignUpPage> {
   @override
   void dispose() {
     _canProcess = false;
-    _faceDetector.close();
+    _meshDetector.close();
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
+    if (Platform.isIOS) {
+      return Scaffold(
+        appBar: AppBar(title: Text('Under construction')),
+        body: Center(
+            child: Text(
+          'Not implemented yet for iOS :(\nTry Android',
+          textAlign: TextAlign.center,
+        )),
+      );
+    }
     return DetectorView(
-      title: 'Face Detector',
+      title: 'Face Mesh Detector',
       customPaint: _customPaint,
       text: _text,
       onImage: _processImage,
@@ -49,20 +57,20 @@ class _FaceSignUpPageState extends State<FaceSignUpPage> {
     setState(() {
       _text = '';
     });
-    final faces = await _faceDetector.processImage(inputImage);
+    final meshes = await _meshDetector.processImage(inputImage);
     if (inputImage.metadata?.size != null &&
         inputImage.metadata?.rotation != null) {
-      final painter = FaceDetectorPainter(
-        faces,
+      final painter = FaceMeshDetectorPainter(
+        meshes,
         inputImage.metadata!.size,
         inputImage.metadata!.rotation,
         _cameraLensDirection,
       );
       _customPaint = CustomPaint(painter: painter);
     } else {
-      String text = 'Faces found: ${faces.length}\n\n';
-      for (final face in faces) {
-        text += 'face: ${face.boundingBox}\n\n';
+      String text = 'Face meshes found: ${meshes.length}\n\n';
+      for (final mesh in meshes) {
+        text += 'face: ${mesh.boundingBox}\n\n';
       }
       _text = text;
       // TODO: set _customPaint to draw boundingRect on top of image
