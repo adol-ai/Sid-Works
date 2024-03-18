@@ -18,9 +18,16 @@ x = [glob.glob(imgDir+y) for y in ['*.jpg', '*.png', '*.tiff', '*.bmp', '*.jpeg'
 x = sum(x , [])
 random.shuffle(x)
 
-a=1
+a = b = 9801
 for i in tqdm.tqdm(x, desc = "ReNamin' the Images Yo!", colour = 'red'):
-    os.rename(i, imgDir+str(a)+str(os.path.basename(dirStuff))+'.png')
+    os.rename(i, imgDir+'_'+str(a)+str(os.path.basename(dirStuff))+'.png')
     a+=1
+
+x = [glob.glob(imgDir+y) for y in ['*.jpg', '*.png', '*.tiff', '*.bmp', '*.jpeg']]
+x = sum(x , [])
+random.shuffle(x)
+for i in tqdm.tqdm(x, desc = "ReNamin' the Images Yo!", colour = 'red'):
+    os.rename(i, imgDir+str(b)+'_'+str(os.path.basename(dirStuff))+'.png')
+    b+=1
 t2 = time.time()
 print("\nCompleteExecTime: ", (t2-t1))
