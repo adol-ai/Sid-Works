@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Wagtail</folder>
+	<filename>9837_Wagtail.png</filename>
+	<path>P:\Sid-Works\otherStuff\Yugam24\MLathon\Validation_data\Wagtail\9837_Wagtail.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>1028</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>wagtail</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>426</xmin>
+			<ymin>439</ymin>
+			<xmax>773</xmax>
+			<ymax>676</ymax>
+		</bndbox>
+	</object>
+</annotation>

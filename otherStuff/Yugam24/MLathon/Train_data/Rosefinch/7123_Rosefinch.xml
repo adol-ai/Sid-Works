@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Rosefinch</folder>
+	<filename>7123_Rosefinch.png</filename>
+	<path>P:\Sid-Works\otherStuff\Yugam24\MLathon\Train_data\Rosefinch\7123_Rosefinch.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>928</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rosefinch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>435</xmin>
+			<ymin>146</ymin>
+			<xmax>889</xmax>
+			<ymax>1009</ymax>
+		</bndbox>
+	</object>
+</annotation>

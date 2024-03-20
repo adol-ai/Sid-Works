@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Tailorbird</folder>
+	<filename>8688_Tailorbird.png</filename>
+	<path>P:\Sid-Works\otherStuff\Yugam24\MLathon\Train_data\Tailorbird\8688_Tailorbird.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>675</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tailorbird</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>599</xmin>
+			<ymin>95</ymin>
+			<xmax>1139</xmax>
+			<ymax>523</ymax>
+		</bndbox>
+	</object>
+</annotation>

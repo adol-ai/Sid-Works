@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Pitta</folder>
+	<filename>6413_Pitta.png</filename>
+	<path>P:\Sid-Works\otherStuff\Yugam24\MLathon\Train_data\Pitta\6413_Pitta.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>767</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pitta</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>470</xmin>
+			<ymin>14</ymin>
+			<xmax>1017</xmax>
+			<ymax>725</ymax>
+		</bndbox>
+	</object>
+</annotation>

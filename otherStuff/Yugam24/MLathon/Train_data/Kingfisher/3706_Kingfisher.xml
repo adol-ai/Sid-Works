@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>Kingfisher</folder>
+	<filename>3706_Kingfisher.png</filename>
+	<path>Z:\KCT\Yugam24\raufPart\raufPart\Kingfisher\3706_Kingfisher.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>887</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kingfisher</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>260</xmin>
+			<ymin>244</ymin>
+			<xmax>659</xmax>
+			<ymax>695</ymax>
+		</bndbox>
+	</object>
+</annotation>

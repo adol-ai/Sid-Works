@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Myna</folder>
+	<filename>4002_Myna.png</filename>
+	<path>P:\Sid-Works\otherStuff\Yugam24\MLathon\Train_data\Myna\4002_Myna.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>536</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>myna</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>334</xmin>
+			<ymin>79</ymin>
+			<xmax>608</xmax>
+			<ymax>519</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>Crow</folder>
+	<filename>1125_Crow.png</filename>
+	<path>Z:\KCT\Yugam24\raufPart\raufPart\Crow\1125_Crow.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1192</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crow</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>140</xmin>
+			<ymin>203</ymin>
+			<xmax>1159</xmax>
+			<ymax>1099</ymax>
+		</bndbox>
+	</object>
+</annotation>

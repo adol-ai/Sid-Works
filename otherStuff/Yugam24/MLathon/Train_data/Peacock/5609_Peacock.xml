@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Peacock</folder>
+	<filename>5609_Peacock.png</filename>
+	<path>P:\Sid-Works\otherStuff\Yugam24\MLathon\Train_data\Peacock\5609_Peacock.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>467</width>
+		<height>700</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>peacock</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>11</xmin>
+			<ymin>25</ymin>
+			<xmax>425</xmax>
+			<ymax>700</ymax>
+		</bndbox>
+	</object>
+</annotation>

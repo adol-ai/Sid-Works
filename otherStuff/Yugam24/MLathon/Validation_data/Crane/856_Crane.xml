@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Crane</folder>
+	<filename>856_Crane.png</filename>
+	<path>P:\Sid-Works\otherStuff\Yugam24\MLathon\Validation_data\Crane\856_Crane.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crane</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>304</xmin>
+			<ymin>181</ymin>
+			<xmax>546</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>

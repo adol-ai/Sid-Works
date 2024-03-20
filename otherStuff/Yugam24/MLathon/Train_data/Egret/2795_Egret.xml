@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>Egret</folder>
+	<filename>2795_Egret.png</filename>
+	<path>Z:\KCT\Yugam24\raufPart\raufPart\Egret\2795_Egret.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>667</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egret</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>4</ymin>
+			<xmax>773</xmax>
+			<ymax>667</ymax>
+		</bndbox>
+	</object>
+</annotation>

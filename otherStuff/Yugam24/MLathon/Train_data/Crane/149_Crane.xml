@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>Crane</folder>
+	<filename>149_Crane.png</filename>
+	<path>Z:\KCT\Yugam24\raufPart\raufPart\Crane\149_Crane.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crane</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>241</xmin>
+			<ymin>80</ymin>
+			<xmax>550</xmax>
+			<ymax>485</ymax>
+		</bndbox>
+	</object>
+</annotation>

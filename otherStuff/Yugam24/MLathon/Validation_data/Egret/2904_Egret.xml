@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Egret</folder>
+	<filename>2904_Egret.png</filename>
+	<path>P:\Sid-Works\otherStuff\Yugam24\MLathon\Validation_data\Egret\2904_Egret.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egret</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>276</xmin>
+			<ymin>125</ymin>
+			<xmax>921</xmax>
+			<ymax>936</ymax>
+		</bndbox>
+	</object>
+</annotation>

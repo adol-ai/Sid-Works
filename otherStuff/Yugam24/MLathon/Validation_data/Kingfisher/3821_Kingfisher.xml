@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Kingfisher</folder>
+	<filename>3821_Kingfisher.png</filename>
+	<path>P:\Sid-Works\otherStuff\Yugam24\MLathon\Validation_data\Kingfisher\3821_Kingfisher.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kingfisher</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>510</xmin>
+			<ymin>142</ymin>
+			<xmax>1083</xmax>
+			<ymax>646</ymax>
+		</bndbox>
+	</object>
+</annotation>

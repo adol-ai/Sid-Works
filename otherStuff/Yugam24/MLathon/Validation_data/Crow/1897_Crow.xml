@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Crow</folder>
+	<filename>1897_Crow.png</filename>
+	<path>P:\Sid-Works\otherStuff\Yugam24\MLathon\Validation_data\Crow\1897_Crow.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>654</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crow</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>233</xmin>
+			<ymin>67</ymin>
+			<xmax>949</xmax>
+			<ymax>477</ymax>
+		</bndbox>
+	</object>
+</annotation>
