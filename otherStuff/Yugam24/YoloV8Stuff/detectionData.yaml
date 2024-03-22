@@ -1,0 +1,13 @@
+names:
+  0: crane
+  1: crow
+  2: egret
+  3: kingfisher
+  4: myna
+  5: peacock
+  6: pitta
+  7: rosefinch
+  8: tailorbird
+  9: wagtail
+train: L:\Sid-Works\otherStuff\Yugam24\YoloV8Stuff\datasets\BigBirdsData\train\images
+val: L:\Sid-Works\otherStuff\Yugam24\YoloV8Stuff\datasets\BigBirdsData\val\images
