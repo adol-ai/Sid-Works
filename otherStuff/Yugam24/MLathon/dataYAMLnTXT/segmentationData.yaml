@@ -1,0 +1,5 @@
+names: '[''crane'', ''crow'', ''egret'', ''kingfisher'', ''myna'', ''peacock'', ''pitta'',
+  ''rosefinch'', ''tailorbird'', ''wagtail'']'
+nc: 10
+train: ../train/images
+val: ../valid/images

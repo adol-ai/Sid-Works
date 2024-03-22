@@ -1,0 +1,1 @@
+{'crane': 0, 'crow': 1, 'egret': 2, 'kingfisher': 3, 'myna': 4, 'peacock': 5, 'pitta': 6, 'rosefinch': 7, 'tailorbird': 8, 'wagtail': 9}
