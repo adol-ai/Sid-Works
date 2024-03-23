@@ -1,0 +1,60 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2024-03-23T00:41:34.130481",
+    "startedAt": "2024-03-23T00:41:33.237309",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "detect",
+        "train",
+        "data=detectionData.yaml",
+        "model=L:\\Sid-Works\\otherStuff\\Yugam24\\YoloV8Stuff\\runs\\detect\\runOne\\weights\\last.pt",
+        "epochs=50",
+        "batch=4",
+        "device=0"
+    ],
+    "state": "running",
+    "program": "-m __main__",
+    "codePathLocal": null,
+    "git": {
+        "remote": "git@github.com:adol-ai/Sid-Works.git",
+        "commit": "19ac0eca0bccb4ebdb5f4e39fdb67b4631f7dde0"
+    },
+    "email": "sid@adoltech.com",
+    "root": "L:/Sid-Works",
+    "host": "Adol-WorkStation",
+    "username": "Sid",
+    "executable": "C:\\Users\\Sid\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "cpu_count": 12,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2100.0,
+        "min": 0.0,
+        "max": 2100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 2100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 282.22655868530273,
+            "used": 139.02825546264648
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 31.845237731933594
+    }
+}
