@@ -1,0 +1,12 @@
+diff --git a/otherStuff/Yugam24/YoloV8Stuff/detectionData.yaml b/otherStuff/Yugam24/YoloV8Stuff/detectionData.yaml
+index 2227a670d..7d23b588e 100644
+--- a/otherStuff/Yugam24/YoloV8Stuff/detectionData.yaml
++++ b/otherStuff/Yugam24/YoloV8Stuff/detectionData.yaml
+@@ -9,5 +9,5 @@ names:
+   7: rosefinch
+   8: tailorbird
+   9: wagtail
+-train: L:\Sid-Works\otherStuff\Yugam24\YoloV8Stuff\datasets\BigBirdsData\train\images
+-val: L:\Sid-Works\otherStuff\Yugam24\YoloV8Stuff\datasets\BigBirdsData\val\images
++train: L:\Sid-Works\otherStuff\Yugam24\YoloV8Stuff\datasets\BigBirdsEvalData\train\images
++val: L:\Sid-Works\otherStuff\Yugam24\YoloV8Stuff\datasets\BigBirdsEvalData\val\images
