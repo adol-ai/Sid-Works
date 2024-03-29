@@ -60,7 +60,7 @@
 ~do you think you will have a girlfriend?
 ~whats the Quote of your life?
 ~what you think you will be in 10 years?
-~what do you comtemplate mostly on?
+~what do you contemplate mostly on?
 ~what do you feel so sorry for?
 ~which profession do you feel more important?
 ~what is the purpose of having wealth?
@@ -75,6 +75,9 @@
 ~Who's your inspiration?"
 ~what kinda art you like to do?
 ~How would you describe yourself?
+~Who's Yo Hero?
+~Are ya kay with what ya Have?
+~The Very one thing you want to change in this World?
 *****
 
 
@@ -689,3 +692,238 @@ myself for Greater GooD
 
 ~How would you describe yourself?
 - A Hardworking Determined Persuasive Guy
+
+
+
+
+===========================================================================================================================================
+
+29/03/2024
+
+#Given the choice of anyone in the world, whom would you want as a dinner guest?
+- Sam Altman
+
+#Would you like to be famous? In what way?
+- An Entreprenuer, Billionere, Philantropist
+
+#Before making a telephone call, do you ever rehearse what you are going to say? Why?
+- If, its a Formla Talk; Defenetly Yes.... if its a Friend or an Acquaintance maybe not
+
+#What would constitute a “perfect” day for you?
+- Waking up n Finishing up Fajr, Get to Boxing Class n Riding to College... Update my GitHub Repos... Get home n Get to Sleep
+
+#When did you last sing to yourself? To someone else?
+- I was Practicing a Song for my College's Music Club Audition whoch i was noot Selected n it was 5-6 Months Ago
+
+#If you were able to live to the age of 90 and retain either the mind or body of a 30-year-old for the last 60 years of your life, which would you want?
+- I'd Say Body... Coz, I'd Defenetly be More nMore Mentally Mature in my Final Days
+
+#Do you have a secret hunch about how you will die?
+- It would be Nice, if i with n Surrounded with my Family; I even think in time, maybe it would involve my Bike n So on...
+
+#Name three things you and your partner appear to have in common.
+- I wish, Political Correctness, Humour & Perspective over the Society n World
+
+#For what in your life do you feel most grateful?
+- I very Gratefully for Having what i Have n What i Went through... I did not Go Astray as my Friends/Acquaintance... I Very Privileaged to have n Be What IAM.... I Everything like Financial Status, Family, Surrounding, So on...
+
+#If you could change anything about the way you were raised, what would it be?
+- No, Nothing... It's Perfect Completely Perfect... I Wish i can Bring Up my Children as IAM... The Situations, n EVerything it was So perfect
+
+#Take four minutes and tell your partner your life story in as much detail as possible.
+- OkaaaY I'll Summarize my Life.... A Boy from Mediocre Muslim Family... was kinda Clown in most his School life, but Famous guy in School... Took the Best Decision after 12th Grade, Saw Bit Some Success... NOw being in Bachelors, MindSet's Completely change, More Leaning towards Entreprenuership n So on... Leaving all Career Stuff Apart.... I've never been in any RelationShip, Never Touched Alcohol, Cigars, Drugs which are Out of my Morals.... For a RelationShip, I haven't met anyOne Special Yet... and that is it !
+
+#If you could wake up tomorrow having gained any one quality or ability, what would it be?
+- Not Exactly Public Speaking but... I want a Skill, To Convince n Make People Understand what I'am Pitching... Even to a regular Ordinary Person
+
+#If a crystal ball could tell you the truth about yourself, your life, the future or anything else, what would you want to know?
+- I Don't want it to Reveal everyThing... But i want it to hint about my Future, My Dreams n So on
+
+#Is there something that you’ve dreamed of doing for a long time? Why haven’t you done it?
+- Techincally, FineTuning a LLM... OtherSide, I want to Apologize to Hafsa for talking Shit... And, Know What in Quran
+
+#What is the greatest accomplishment of your life?
+- Making my DaD n my MoM Proud, My Best OutGoing Student Award... Especialy my Dad
+
+#What is your most treasured memory?
+- The Time I spent in Delhi... Time I spent with Aaman(Pre-2021), Diploma IV... Time with Rauf n Pragades... Times I was with Ayub Mama
+
+#What is your most terrible memory?
+- Dec 5 2023... The Night Mammu Mama Called Me... Ayub Mama's Burial
+
+#If you knew that in one year you would die suddenly, would you change anything about the way you are now living? Why?
+- Drop my Colleg & Explore the World... I'll get Very Close to my Family, I'll do the Best for Them, I should not be Missed When I'm Gone, Maybe I'll try to Create a Virtual Self of Me (LLMs n VisualME), I'll Exist with them but as a VirtualSelf... I might beCome a Very Pious guy or the Opposit, n Question Everything
+
+#What does friendship mean to you?
+- I'll do anyThing for the other Person... But I dont if its the same Case for me.... In a Philosophical Perspective, It's the Only Way out to Get off from a Worse Mental State
+
+#What roles do love and affection play in your life?
+- That is what Shaped me... That is What IAM
+
+#Alternate sharing something you consider a positive characteristic of your partner. Share a total of five items.
+- I Wish... Love, Humour, Kindness, Intelligence, Harmony
+
+#How close and warm is your family? Do you feel your childhood was happier than most other people’s?
+- Indeed... I had a Best ChildHood, It Shaped me... But I'm not Open n So Close to my Sibling n Family, But They are the Only Ones I've Got
+
+#How do you feel about your relationship with your mother?
+- Great !
+
+#Make three true “we” statements each. For instance, “We are both in this room feeling ... “
+- This is bit Irelavent for me
+
+#Complete this sentence: “I wish I had someone with whom I could share ... “
+- I wish I had someone with whom I could share my Thoughts n Perspective
+
+#If you were going to become a close friend with your partner, please share what would be important for him or her to know.
+- I'm Skipping thsi Question
+
+#Tell your partner what you like about them; be very honest this time, saying things that you might not say to someone you’ve just met.
+- Got No Answer
+
+#Share with your partner an embarrassing moment in your life.
+- Most Embarrassisng moment in my Life is... (UnFortunately, Nothing's Comming Up in my Mind)
+
+#What, if anything, is too serious to be joked about?
+- Mental health, People's Preference & Racial Jokes
+
+#When did you last cry in front of another person? By yourself?
+- Ayub Mama's BirthDay... I was in Train to Vizag
+
+#Tell your partner something that you like about them already.
+- Skipping this Thing
+
+#If you were to die this evening with no opportunity to communicate with anyone, what would you most regret not having told someone? Why haven’t you told them yet?
+- Not Telling my Family that How much I Love them
+
+#Your house, containing everything you own, catches fire. After saving your loved ones and pets, you have time to safely make a final dash to save any one item. What would it be? Why?
+- My Book I use to write my ideas
+
+#Of all the people in your family, whose death would you find most disturbing? Why?
+- Dad, I will be Shattered.... But, AnyOne; I dont think to I will be able to Continue my Life, People might Say "It's a Test from GoD" but I will Lose Faith Completely
+
+#Share a personal problem and ask your partner’s advice on how he or she might handle it. Also, ask your partner to reflect back to you how you seem to be feeling about the problem you have chosen.
+- Skipping this One
+
+~what the most disappointing thing in your life?
+- MySelf..... No no no, most of the big movies OUT recently
+
+~what is the skill do you want so badly?
+- Even make a Regular Ordinary Human to Understand what I'm Speaking
+
+~what would you do when your exam is over?
+- This, might be a Question from 2021.... BUt le me try to Answer it... My Sem Exam's Over, New Sem's Started, So... Maybe an InternShip
+
+~what are you dreaming about?
+- Just Few Months Ago... I had a Career plan where... I'd do my Masters in CalTech n Then Get into R&D in a MAANG Tier Company.... BUt now, my mindSet's Changed, Mostly Probably I'll be Cracking GMAT n Doing my MBA in Stanford or Harvard Business School n Invole in a StartUp n Hitting Big ! Not Leading a Normal Life
+
+~what are you good at?
+- Definetly not Competitive Programming n DataStructures but the Projects n Industry Aspect
+
+~what is your opinion about the people right now?
+- In General, I feel like EveryOne's Loser
+
+~what your fav colour?
+- Black maybe
+
+~what are the fav song right now?
+- Another One Bites the Dust, Queens
+
+~whats your fav Soundtrack/Theme music?
+- Tsuki Sayu Yoru - Fu Rin Ka Zan
+
+~what interests you the most?
+- GenAI
+
+~what does it hurt you the most?
+- Whan I get no Attention
+
+~what is your fav food?
+- Arabian Stuff I'd say... nothin' Specific
+
+~which field of work is so admiring?
+- R&D
+
+~Which AI has Impressed you the most?
+- Diffusion Models
+
+~whats your fav Series/anthalogy?
+- Robot, Love + Death
+
+~whats your fav movie?
+- Anbe Sivam I'd say
+
+~what are your Hobbies?
+- Doing Code & Biking
+
+~whats you biggest disappointment?
+- Nothing Specific right now
+
+~what skill you wanted to go do badly?
+- Repeated Question
+
+~what the fav place you've visited?
+- Delhi n the Independent Life i lived there
+
+~do you think you will have a girlfriend?
+- Such a Cringe Question... but TBH, I don't think so n I don't have time for that
+
+~whats the Quote of your life?
+- I'm Not gonna Die as an OrdinaryMan
+
+~what you think you will be in 10 years?
+- Alive, Out of this Country... Maybe Happily married or in Couple of Years or so... Maybe already a Millionore, or trying hard so.... a Prominant Researcher, An Entreprenuer.... Or the Complete Opposite, a Complete Failure, n living the Worst of my Life 
+
+~what do you contemplate mostly on?
+- Career n Existence of Superior Being.... in the recent Times
+
+~what do you feel so sorry for?
+- Not spending the Time with Ayub mama when he was there
+
+~which profession do you feel more important?
+- I do not have any Answers right now
+
+~what is the purpose of having wealth?
+- Spending it on the Needy n Doing something that's Useful fo the BIgger purpose
+
+~what could be the next revolutionary tech?
+- Halograms, AGI
+
+~what shaped you the most in your life(A thing)?
+- my ChildHooD... To be Very Honest, Exposure to Tech in Early Age.... So, Mammu Mama is the Reason
+
+~what do you Promise yourself RIGHT NOW?
+- I'm not gonna die as an Ordinary man
+
+~whats your biggest fear in your life?
+- Rejection & Becoming a Complete Failure n Turining into nothing
+
+~what is the quality that you must never lose what so ever?
+- Making the First move, My Networking Skills... Formal Talks n So on
+
+~what are the qualities that you expect from your partner?
+- REpeated Question but there it is.... Humour, Political Correctness, Leftist, Liberalist, Rationalist, Kind, Modesty & intelligence
+
+~what would you do if you are the CM/PM for next course?
+- I'll try to get the Infrastrycture of this country to another level, Achive the atmost Social Equity, increase Litracy
+
+~what do you think is the Purpose of Life?
+- Do make a Mark in this World, Help out the Needy & Bring a Change
+
+~Who's your inspiration?
+- Ambedkar, Periyar, Lenin, Karl Marx, Anna, Sam Altman, Peter Thiel, Mark
+
+~what kinda art you like to do?
+- Goede Art, Epoxy Art
+
+~How would you describe yourself?
+- Jus' a Boy with Dreams
+
+~Who's Yo Hero?
+- My dad & Mnnu Mama
+
+~Are ya Okay with what ya Have?
+- I'm Very Privileaged to have what I have, I'm Very Grateful to have what I have
+
+~The Very one thing you want to change in this World?
+- There are Many... War, Poverty, Violence.... but those are InEvitable, Time-To-Time everything Goes On
