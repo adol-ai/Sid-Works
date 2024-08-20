@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'Edwardian Script ITC';
+    src: url('asserts/fonts/EdwardianScriptITC.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Vivaldi';
+    src: url('asserts/fonts/Vivaldi.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Imprint MT Shadow';
+    src: url('asserts/fonts/ImprintMTShadow.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Kunstler Script';
+    src: url('asserts/fonts/KunstlerScript.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Elephant';
+    src: url('asserts/fonts/Elephant.ttf') format('truetype');
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Georgia;
+	box-sizing: border-box;
+}
+.front{
+	height: 100vh;
+	width: 100%;
+	background-image: url(asserts/imgBG.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.logo{
+	color: white;
+	font-size: 95px;
+	font-family: Edwardian Script ITC;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: #0008F0;
+	font-size: 75px;
+	font-family: Edwardian Script ITC;
+}
+
+div.h{
+	line-height: 550%;
+}
+
+div.h_{
+	line-height: 65%;
+}
+
+.s{
+	color: white;
+	font-size: 135px;
+	font-family: Edwardian Script ITC;
+}
+
+.s_{
+	color: white;
+	font-size: 105px;
+	font-family: Vivaldi;
+}
+
+._s_{
+	font-size: 150px;
+}
+
+.q{
+	color: white;
+	font-size: 55px;
+	font-family: Imprint MT Shadow;
+}
+.q_{
+	color: white;
+	font-size: 45px;
+	font-family: Imprint MT Shadow;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 5%;
+	padding-right: 1%;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+nav ul li a:hover{
+	color: #F7FB00;
+	font-size: 25px;
+	transition: .4s;
+}
+
+ul.v li a{
+	align-items: left;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Elephant;
+	text-transform: capitalize;
+	font-size: 35px;
+}
+
+ul.v li a:hover{
+	color: white;
+	font-size: 65px;
+	transition: .4s;
+}
+
+.v_{
+	color: #F7FB00;
+	font-size: 105px;
+	font-family: Edwardian Script ITC;
+}
+
+.intro{
+	position: absolute;
+	top: 50%;
+	left:4%;
+	transform: translateY(-10%);
+}
+h1{
+	color: white;
+	margin: 0px 0px 0px;
+	font-size: 75px;
+}
+h2{
+	color: white;
+	margin: 0px 0px 0px;
+	font-size: 75px;
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+.h_{
+	font-family: Kunstler Script;
+	font-size: 85px;
+}
+
+h4{
+	color: #CFAA00;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #040404;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 22px;
+	margin-bottom: 45px;
+}
+
+
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 250px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.social{
+	display: flex;
+}
+
+.social a:hover{
+	transform: scale(1.3);
+	transition: .4s;
+}
